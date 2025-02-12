@@ -2,7 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/yaml_codec.svg)](https://pub.dev/packages/yaml_codec)
 
-Encoder and decoder for converting YAML object representation.
+Encoder and decoder for converting YAML object representation.  
 Inspired by `dart:convert`'s `json`/`jsonEncode`/`jsonDecode`.
 Backed by [yaml](https://pub.dev/packages/yaml) and [yaml_writer](https://pub.dev/packages/yaml_writer).
 
@@ -14,8 +14,6 @@ Backed by [yaml](https://pub.dev/packages/yaml) and [yaml_writer](https://pub.de
 ## Usage
 
 ```dart
-import 'dart:convert' show JsonEncoder, json;
-
 import 'package:yaml_codec/yaml_codec.dart';
 
 void main() {
